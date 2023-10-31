@@ -195,3 +195,29 @@ button img{
     display: none;
     margin-top: 40px;
 }
+
+@media (max-width:600px) {
+    #main #endec-div{
+      width:75%;
+        padding:0 0.5vw;
+        /* display: flex; */
+        }
+        #enc-btn{
+            height: 60px;
+           
+        }
+        #dec-btn{
+            height: 60px;
+        }
+        #encryption{
+            width:70%;
+        }
+
+        #decryption{
+            width:70%;
+        }
+        #result{
+            width: 70%;
+        }
+
+}
